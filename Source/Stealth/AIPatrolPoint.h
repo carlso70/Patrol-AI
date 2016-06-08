@@ -2,14 +2,14 @@
 
 #pragma once
 
-#include "BehaviorTree/BTTaskNode.h"
-#include "BT_SelectPatrolPoint.generated.h"
+#include "Engine/TargetPoint.h"
+#include "AIPatrolPoint.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class STEALTH_API UBT_SelectPatrolPoint : public UBTTaskNode
+class STEALTH_API AAIPatrolPoint : public ATargetPoint
 {
 	GENERATED_BODY()
 	
